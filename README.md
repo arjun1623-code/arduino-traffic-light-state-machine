@@ -154,6 +154,3 @@ The code demonstrates:
 
 ---
 
-
-That would make your repo look **much stronger for internships (IIT-H, robotics labs, embedded roles, etc.)**.
-
