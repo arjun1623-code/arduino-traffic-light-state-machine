@@ -5,7 +5,7 @@
 * Arduino Uno
 * Push Button
 * 3 LEDs (Red, Yellow, Green)
-* 10kΩ Resistor
+* 3 220Ω Resistors
 
 ---
 
