@@ -6,7 +6,7 @@ const unsigned long DEBOUNCE_DELAY = 50;
 enum TrafficState{
   RED,
   GREEN,
-  YELLOW
+  BLUE
 };
 TrafficState state=RED;
 void setup() {
@@ -34,7 +34,7 @@ void TrafficLightController() {
     digitalWrite(4, LOW);
     digitalWrite(5, HIGH);
     digitalWrite(6, LOW);
-  } else if (state == YELLOW) {
+  } else if (state == BLUE) {
     digitalWrite(4, LOW);
     digitalWrite(5, LOW);
     digitalWrite(6, HIGH);
